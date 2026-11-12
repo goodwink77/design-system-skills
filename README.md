@@ -25,12 +25,21 @@ Skills load in layers, so they don't fill up the agent's context:
 3. **Bundled files:** references and scripts, read only when a step needs them.
 
 ## Skills in This Repo
+Agent skills for building UI with a design system.
+
+## Skills
+- **meta-skill-template**: Starting point for new skills
+
+## Layout
+Each skill lives in `skills/<name>/SKILL.md`.
 
 | Skill | What it does | Status |
 | --- | --- | --- |
-| [meta-skill-template](skills/meta-skill-template/) | A starting template for authoring new design system skills with a consistent structure | 🧪 Testing |
-| [visual-color](skills/visual-color/) | Applies color token guidance to components and flows, including states and contrast | 🧪 Testing |
-| [visual-typography](skills/visual-typography/) | Applies type scale, weight, line height, and text color tokens, with redline-style annotation tables | 🧪 Testing |
+| [meta-skill-template](skills/meta-skill-template/) | A starting template for authoring new design system skills with a consistent structure | 📝 Draft (being written) |
+| [visual-color](skills/visual-color/) | Applies color token guidance to components and flows, including states and contrast | 📝 Draft (being written) |
+| [visual-typography](skills/visual-typography/) | Applies type scale, weight, line height, and text color tokens, with redline-style annotation tables | 📝 Draft (being written) |
+Layout[TBD] |
+|  |  | 📝 Draft (being written) |
 
 **Status key:** 📝 Draft (being written) · 🧪 Testing (being tried on real prompts) · ✅ Stable (works reliably in my tests)
 
